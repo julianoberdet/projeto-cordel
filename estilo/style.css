@@ -45,16 +45,17 @@ header a:hover{
 }
 main{
     min-width: 300px;
-    max-width: 1000px;
 }
 main p{
     min-width: 300px;
-    max-width: 1000px;
     font-family: var(--fonte-destaque);
     margin: 15px 0px;
-    text-align: justify;
-    text-indent: 3px;
+    text-align:left;
+    text-indent: 8px;
     font-size: 2.6em;
+}
+div{
+    min-width: 300px;
 }
 div.paragrafo1{
     text-align: left;
@@ -63,7 +64,6 @@ div.paragrafo1{
 }
 div.paragrafo2{
     min-width: 300px;
-    max-width: 1000px;
     text-align: left;
     white-space: pre-wrap;
     text-indent: 10px;
@@ -82,7 +82,6 @@ div.paragrafo3{
 }
 div.paragrafo4{
     min-width: 300px;
-    max-width: 1000px;
     text-align: left;
     white-space: pre-wrap;
     text-indent: 10px;
@@ -101,7 +100,6 @@ div.paragrafo5{
 }
 div.paragrafo6{
     min-width: 300px;
-    max-width: 1000px;
     text-align: left;
     white-space: pre-wrap;
     text-indent: 10px;
