@@ -40,6 +40,10 @@ header a:hover{
     color: yellow;
     text-decoration: underline;
 }
+main{
+    min-width: 300px;
+    max-width: 1000px;
+}
 main p{
     font-family: var(--fonte-destaque);
     margin: 15px 0px;
