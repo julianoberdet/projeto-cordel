@@ -72,14 +72,14 @@ section.imagem{
 }
 section#img01.imagem{
     background-image: url(imagens/background001.jpg);
-    background-position: right center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 section#img02.imagem{
     background-image: url(imagens/imagem0000.jpg);
-    background-position: right center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
