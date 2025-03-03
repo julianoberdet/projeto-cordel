@@ -13,48 +13,59 @@
     margin: 0;
     padding: 0;
 }
+html, body{
+    min-height: 100%;
+    background-color: darkgray;
+}
 header{
     min-height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 header h1{
     font-family: var(--fonte-titulo);
     font-size: 7em;
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 60px;
-    margin-bottom: -35px;
-    
+    font-variant: small-caps;
+    padding-top: 50px;
+    margin-bottom: -35px; 
 }
 header p{
     font-size: 1.5em;
-    text-align: center;
-    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+header a, footer a {
     color: white;
-    margin-bottom: 25px;
-    padding-bottom: 40px;
-}
-header a{
     text-decoration: none;
-    background-color: black;
-    color: white
+    font-weight: bolder;
 }
-header a:hover{
+header a:hover, footer a:hover{
     color: yellow;
     text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte-destaque);
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 300px;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(78, 78, 78);
+    color: white;
 }
 footer{
     padding: 5px;
     text-align: center;
     background-color: black;
     color: white;
-}
-footer a{
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.644);
-    text-decoration: none;
-}
-footer a:hover{
-    text-decoration: underline;
-    color: yellow;
 }
