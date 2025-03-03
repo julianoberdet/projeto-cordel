@@ -26,13 +26,13 @@ header{
 }
 header h1{
     font-family: var(--fonte-titulo);
-    font-size: 8.5em;
+    font-size: 15vh;
     font-variant: small-caps;
     padding-top: 50px;
     margin-bottom: -35px; 
 }
 header p{
-    font-size: 1em;
+    font-size: 5vh;
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -51,7 +51,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte-destaque);
-    font-size: 2.5em;
+    font-size: 5vh;
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.253);
