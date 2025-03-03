@@ -32,7 +32,7 @@ header h1{
     margin-bottom: -35px; 
 }
 header p{
-    font-size: 5vh;
+    font-size: 2vh;
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -51,7 +51,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte-destaque);
-    font-size: 5vh;
+    font-size: 3.8vh;
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.253);
